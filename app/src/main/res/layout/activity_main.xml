@@ -7,10 +7,18 @@
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        android:layout_height="?attr/actionBarSize"
+        tools:layout_editor_absoluteY="-8dp">
+    </include>
+
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingTop="?android:attr/actionBarSize"
         >
 
 
