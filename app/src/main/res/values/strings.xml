@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">8種章魚食譜</string>
-    <string name="settings_name">設定 </string>
+    <string name="settings_name">設定</string>
+    <string name="help_name">小知識</string>
+    <string name="update_name">新增</string>
 </resources>

@@ -7,19 +7,28 @@
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
+
     <include
         android:id="@+id/app_bar"
         layout="@layout/app_bar"
-        android:layout_height="?attr/actionBarSize"
-        tools:layout_editor_absoluteY="-8dp">
-    </include>
+        android:layout_height="57dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="66dp"></include>
 
-    <ScrollView
+
+    <android.support.v4.widget.NestedScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingTop="?android:attr/actionBarSize"
-        >
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar"
+        app:layout_constraintVertical_bias="0.0">
 
 
         <LinearLayout
@@ -66,21 +75,21 @@
                         android:id="@+id/textView14"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
                         android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="酥炸章魚"
                         android:textSize="15dp"
-                        android:textStyle="bold"
-                        android:text="酥炸章魚" />
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView13"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
                         android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="章魚燒"
                         android:textSize="15dp"
-                        android:textStyle="bold"
-                        android:text="章魚燒" />
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -125,9 +134,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:text="日式醋章魚"
                         android:textSize="15dp"
-                        android:textStyle="bold"
-                        android:text="日式醋章魚" />
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView11"
@@ -135,9 +144,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:text="章魚煎餅"
                         android:textSize="15dp"
-                        android:textStyle="bold"
-                        android:text="章魚煎餅" />
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -183,9 +192,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:textStyle="bold"
+                        android:text="辣炒章魚"
                         android:textSize="15dp"
-                        android:text="辣炒章魚" />
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView9"
@@ -193,9 +202,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:textStyle="bold"
+                        android:text="五味章魚"
                         android:textSize="15dp"
-                        android:text="五味章魚"/>
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -259,7 +268,7 @@
             </LinearLayout>
 
         </LinearLayout>
-    </ScrollView>
+    </android.support.v4.widget.NestedScrollView>
 
 
 </android.support.constraint.ConstraintLayout>
