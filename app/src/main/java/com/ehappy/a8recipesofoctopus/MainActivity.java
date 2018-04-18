@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"setting",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.update:
-                Toast.makeText(getApplicationContext(),"Update",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"謝竣翔雞雞很小",Toast.LENGTH_SHORT).show();
                 break;
             default:
 

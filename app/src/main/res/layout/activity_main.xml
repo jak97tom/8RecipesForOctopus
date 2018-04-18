@@ -78,7 +78,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="酥炸章魚"
-                        android:textSize="15dp"
+                        android:textSize="18dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -88,7 +88,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="章魚燒"
-                        android:textSize="15dp"
+                        android:textSize="18dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
@@ -135,7 +135,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="日式醋章魚"
-                        android:textSize="15dp"
+                        android:textSize="18dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -145,7 +145,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="章魚煎餅"
-                        android:textSize="15dp"
+                        android:textSize="18dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
@@ -193,7 +193,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="辣炒章魚"
-                        android:textSize="15dp"
+                        android:textSize="18dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -203,7 +203,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="五味章魚"
-                        android:textSize="15dp"
+                        android:textSize="18dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
@@ -251,7 +251,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="義式涼拌章魚"
-                        android:textSize="15dp"
+                        android:textSize="18dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -261,7 +261,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="三杯章魚"
-                        android:textSize="15dp"
+                        android:textSize="18dp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
