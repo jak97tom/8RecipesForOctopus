@@ -16,15 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".OcTo1"
-            android:parentActivityName=".MainActivity">
-
-            <!-- The meta-data tag is required if you support API level 15 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
+        <activity android:name=".OcTo1" android:parentActivityName=".MainActivity" />
+        <activity android:name=".OcTo2" android:parentActivityName=".MainActivity" />
+        <activity android:name=".OcTo3" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".OcTo4" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".OcTo5" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".OcTo6" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".OcTo7" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".OcTo8"></activity>
     </application>
 
 </manifest>

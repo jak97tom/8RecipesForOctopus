@@ -49,7 +49,7 @@
                     android:layout_width="160dp"
                     android:layout_height="160dp"
                     android:layout_weight="1"
-                    android:onClick="openRecipe"
+                    android:onClick="openRecipe1"
                     android:scaleType="centerCrop"
                     app:srcCompat="@mipmap/octopus7" />
 
@@ -58,6 +58,7 @@
                     android:layout_width="160dp"
                     android:layout_height="160dp"
                     android:layout_weight="1"
+                    android:onClick="openRecipe2"
                     android:scaleType="centerCrop"
                     app:srcCompat="@mipmap/octopus6" />
             </LinearLayout>
@@ -108,6 +109,7 @@
                     android:layout_width="160dp"
                     android:layout_height="160dp"
                     android:layout_weight="1"
+                    android:onClick="openRecipe3"
                     android:scaleType="centerCrop"
                     app:srcCompat="@mipmap/octopus5" />
 
@@ -116,6 +118,7 @@
                     android:layout_width="160dp"
                     android:layout_height="160dp"
                     android:layout_weight="1"
+                    android:onClick="openRecipe4"
                     android:scaleType="centerCrop"
                     app:srcCompat="@mipmap/octopus4" />
             </LinearLayout>
@@ -162,6 +165,7 @@
                     android:layout_width="160dp"
                     android:layout_height="160dp"
                     android:layout_weight="1"
+                    android:onClick="openRecipe5"
                     android:scaleType="centerCrop"
                     app:srcCompat="@mipmap/octopus"
                     tools:layout_editor_absoluteX="12dp"
@@ -172,6 +176,7 @@
                     android:layout_width="160dp"
                     android:layout_height="160dp"
                     android:layout_weight="1"
+                    android:onClick="openRecipe6"
                     android:scaleType="centerCrop"
                     app:srcCompat="@mipmap/octopus1" />
             </LinearLayout>
@@ -220,6 +225,7 @@
                     android:layout_width="160dp"
                     android:layout_height="160dp"
                     android:layout_weight="1"
+                    android:onClick="openRecipe7"
                     android:scaleType="centerCrop"
                     app:srcCompat="@mipmap/octopus3" />
 
@@ -228,6 +234,7 @@
                     android:layout_width="160dp"
                     android:layout_height="160dp"
                     android:layout_weight="1"
+                    android:onClick="openRecipe8"
                     android:scaleType="centerCrop"
                     app:srcCompat="@mipmap/octopus2" />
 

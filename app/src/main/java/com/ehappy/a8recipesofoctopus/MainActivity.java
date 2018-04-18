@@ -48,8 +48,64 @@ public class MainActivity extends AppCompatActivity {
 
 
     /** Called when the user taps the Send button */
-    public void openRecipe(View view) {
+    public void openRecipe1(View view) {
         Intent intent = new Intent(this, OcTo1.class);
+//        EditText editText = (EditText) findViewById(R.id.editText);
+//        String message = editText.getText().toString();
+//        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+
+    public void openRecipe2(View view) {
+        Intent intent = new Intent(this, OcTo2.class);
+//        EditText editText = (EditText) findViewById(R.id.editText);
+//        String message = editText.getText().toString();
+//        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+
+    public void openRecipe3(View view) {
+        Intent intent = new Intent(this, OcTo3.class);
+//        EditText editText = (EditText) findViewById(R.id.editText);
+//        String message = editText.getText().toString();
+//        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+
+    public void openRecipe4(View view) {
+        Intent intent = new Intent(this, OcTo4.class);
+//        EditText editText = (EditText) findViewById(R.id.editText);
+//        String message = editText.getText().toString();
+//        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+
+    public void openRecipe5(View view) {
+        Intent intent = new Intent(this, OcTo5.class);
+//        EditText editText = (EditText) findViewById(R.id.editText);
+//        String message = editText.getText().toString();
+//        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+
+    public void openRecipe6(View view) {
+        Intent intent = new Intent(this, OcTo6.class);
+//        EditText editText = (EditText) findViewById(R.id.editText);
+//        String message = editText.getText().toString();
+//        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+
+    public void openRecipe7(View view) {
+        Intent intent = new Intent(this, OcTo7.class);
+//        EditText editText = (EditText) findViewById(R.id.editText);
+//        String message = editText.getText().toString();
+//        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+
+    public void openRecipe8(View view) {
+        Intent intent = new Intent(this, OcTo8.class);
 //        EditText editText = (EditText) findViewById(R.id.editText);
 //        String message = editText.getText().toString();
 //        intent.putExtra(EXTRA_MESSAGE, message);

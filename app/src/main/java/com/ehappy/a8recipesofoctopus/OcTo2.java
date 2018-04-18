@@ -5,16 +5,16 @@ import android.support.v7.widget.Toolbar;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.TextView;
+import android.support.v7.app.AppCompatActivity;
 
+public class OcTo2 extends AppCompatActivity {
 
-public class OcTo1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_oc_to1);
+        setContentView(R.layout.activity_oc_to2);
         Toolbar toolbar = (Toolbar) findViewById(R.id.app_bar);
-        toolbar.setTitle("酥炸章魚");
+        toolbar.setTitle("章魚燒");
         setSupportActionBar(toolbar);
 
         // 返回鍵
@@ -24,10 +24,5 @@ public class OcTo1 extends AppCompatActivity {
 
         // Get the Intent that started this activity and extract the string
         Intent intent = getIntent();
-//        String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
-
-        // Capture the layout's TextView and set the string as its text
-//        TextView textView = findViewById(R.id.textView);
-//        textView.setText(message);
     }
 }
