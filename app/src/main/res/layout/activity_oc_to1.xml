@@ -17,4 +17,45 @@
         tools:layout_editor_absoluteY="66dp">
     </include>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="587dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar"
+        tools:layout_editor_absoluteX="76dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="食材"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="熟的大隻章魚腳半根、蛋黃2顆、黃甜椒1顆、朝天椒2根、紅辣椒5根、香菜1把、蔥1根、番茄1顆、海苔絲1碗、白醋1小匙、巴西里1棵 麵漿：冰水300c.c.、低筋麵粉200克、蛋黃2顆 "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="調味料"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="作法"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

@@ -24,6 +24,10 @@
         <activity android:name=".OcTo6" android:parentActivityName=".MainActivity"/>
         <activity android:name=".OcTo7" android:parentActivityName=".MainActivity"/>
         <activity android:name=".OcTo8" android:parentActivityName=".MainActivity"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
