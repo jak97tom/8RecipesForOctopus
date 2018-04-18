@@ -15,7 +15,9 @@
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="66dp"></include>
+        tools:layout_editor_absoluteY="66dp">
+
+    </include>
 
 
     <android.support.v4.widget.NestedScrollView

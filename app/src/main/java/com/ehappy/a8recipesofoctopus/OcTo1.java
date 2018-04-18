@@ -15,10 +15,13 @@ public class OcTo1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_oc_to1);
         Toolbar toolbar = (Toolbar) findViewById(R.id.app_bar);
+        toolbar.setTitle("酥炸章魚");
         setSupportActionBar(toolbar);
-//        返回鍵
+
+        // 返回鍵
         ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);
+
 
         // Get the Intent that started this activity and extract the string
         Intent intent = getIntent();
