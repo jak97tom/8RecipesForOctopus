@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".OcTo1">
 
+    <include
+        android:title="酥炸章魚"
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar"
+        android:layout_height="57dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="66dp">
+    </include>
+
 </android.support.constraint.ConstraintLayout>
