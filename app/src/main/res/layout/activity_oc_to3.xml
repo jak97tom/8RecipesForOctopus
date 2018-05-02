@@ -16,5 +16,91 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="66dp">
     </include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="626dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar">
 
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_bar"
+            app:layout_constraintVertical_bias="0.0">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="587dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/app_bar"
+                tools:layout_editor_absoluteX="76dp">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:gravity="center"
+                    android:text="食材"
+                    android:textSize="30sp" />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="章魚 150g\n小黃瓜 1/2根\n"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:gravity="center"
+                    android:text="配料"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="白醋 2tbsp\n薄鹽醬油 1/2tbsp\n味霖 1tbsp\n糖 適量\n芥末醬 適量\n鹽 適量\n"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:gravity="center"
+                    android:text="作法"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="①.小黃瓜洗淨，切成四瓣，去除中間芯部分，再切成大丁狀之後撒少許鹽巴醃漬。\n②.醬料調均勻。芥末請酌量使用，尤其若是小朋友要吃的話～\n③.將切塊的章魚及瀝乾水分的小黃瓜丟進去，拌均勻即可，可加入少許海帶芽增加風味～\n④.或是用壽司醋做醬料也可(醋＋糖＋鹽)。\n
+    "
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

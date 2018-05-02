@@ -18,89 +18,93 @@
     </include>
 
 
-    <android.support.v4.widget.NestedScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:clipToPadding="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/app_bar"
-        app:layout_constraintVertical_bias="0.0">
-
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="587dp"
+        android:layout_height="626dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/app_bar"
-        tools:layout_editor_absoluteX="76dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar">
 
-
-
-        <TextView
-            android:id="@+id/textView2"
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scrollView2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/aclonica"
-            android:gravity="center"
-            android:text="食材"
-            android:textSize="30sp" />
+            android:layout_height="match_parent"
+            android:clipToPadding="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_bar"
+            app:layout_constraintVertical_bias="0.0">
 
 
-            <TextView
-                android:id="@+id/textView3"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="熟的大隻章魚腳半根\n蛋黃2顆\n黃甜椒1顆\n朝天椒2根\n紅辣椒5根\n香菜1把\n蔥1根\n番茄1顆\n海苔絲1碗\n白醋1小匙\n巴西里1棵\n麵漿：冰水300c.c.、低筋麵粉200克、蛋黃2顆 "
-                android:textSize="18sp" />
+                android:layout_height="587dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/app_bar"
+                tools:layout_editor_absoluteX="76dp">
 
 
-        <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/aclonica"
-        android:gravity="center"
-        android:text="調味料"
-        android:textSize="30sp" />
-
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="研磨黑胡椒\n研磨海鹽"
-                android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:gravity="center"
+                    android:text="食材"
+                    android:textSize="30sp" />
 
 
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/aclonica"
-            android:gravity="center"
-            android:text="作法"
-            android:textSize="30sp" />
-
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="
-1.黃甜椒+辣椒：將黃椒燙水後泡冰水、去皮，放入調理機，與1根朝天椒、1小匙鹽一起打勻。\n
-2.辣椒醬A：將蛋黃、200cc沙拉油、白醋1小匙用打蛋器打成美乃滋後，加入黃甜椒+朝天椒、巴西里末混合拌勻成辣椒醬A。\n
-3.辣椒醬B：將紅辣椒、朝天椒1根、香菜、蔥、1茶匙鹽、水打成辣椒醬B。\n
-4.麵漿：將麵粉加入冰水、蛋黃做成麵漿。\n
-5.起150-160度油鍋，章魚切0.5公分薄片後，畫花刀，沾麵漿下鍋炸熟。\n
-6.組裝：炸章魚排盤後，擺上海苔絲，食用時沾取兩種醬汁搭配食用即完成。\n
-"
-                android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="熟的大隻章魚腳半根\n蛋黃2顆\n黃甜椒1顆\n朝天椒2根\n紅辣椒5根\n香菜1把\n蔥1根\n番茄1顆\n海苔絲1碗\n白醋1小匙\n巴西里1棵\n麵漿：冰水300c.c.、低筋麵粉200克、蛋黃2顆 "
+                    android:textSize="18sp" />
 
 
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:gravity="center"
+                    android:text="調味料"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="研磨黑胡椒\n研磨海鹽"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:gravity="center"
+                    android:text="作法"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="①.黃甜椒+辣椒：將黃椒燙水後泡冰水、去皮，放入調理機，與1根朝天椒、1小匙鹽一起打勻。\n②.辣椒醬A：將蛋黃、200cc沙拉油、白醋1小匙用打蛋器打成美乃滋後，加入黃甜椒+朝天椒、巴西里末混合拌勻成辣椒醬A。\n③.辣椒醬B：將紅辣椒、朝天椒1根、香菜、蔥、1茶匙鹽、水打成辣椒醬B。\n④.麵漿：將麵粉加入冰水、蛋黃做成麵漿。\n⑤.起150-160度油鍋，章魚切0.5公分薄片後，畫花刀，沾麵漿下鍋炸熟。\n⑥.組裝：炸章魚排盤後，擺上海苔絲，食用時沾取兩種醬汁搭配食用即完成。\n
+    "
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
     </LinearLayout>
-    </android.support.v4.widget.NestedScrollView>
 
 </android.support.constraint.ConstraintLayout>
