@@ -16,12 +16,14 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="66dp">
     </include>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="626dp"
+        android:layout_height="525dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/app_bar">
@@ -97,7 +99,6 @@
                     android:layout_height="wrap_content"
                     android:text="章魚燒醬適量(超市有賣)\n沙拉適量\n海苔粉適量\n柴魚片適量\n"
                     android:textSize="18sp" />
-
 
 
                 <TextView
