@@ -37,10 +37,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_settings:
                 Toast.makeText(getApplicationContext(),"setting",Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.update:
-                Toast.makeText(getApplicationContext(),"謝竣翔雞雞很小",Toast.LENGTH_SHORT).show();
-                break;
-            default:
+//            case R.id.update:
+//                Toast.makeText(getApplicationContext(),"你不知道jian yang堅持只有8種章魚食譜做法嗎？",Toast.LENGTH_SHORT).show();
+//                break;
+//            default:
+//            case R.id.share
 
         }
         return super.onOptionsItemSelected(item);

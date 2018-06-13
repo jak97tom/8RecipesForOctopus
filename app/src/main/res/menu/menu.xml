@@ -14,12 +14,6 @@
     </item>
 
     <item
-        android:id="@+id/update"
-        android:title="@string/update_name"
-        app:showAsAction="never">
-    </item>
-
-    <item
         android:id="@+id/share"
         android:title="@string/share_name"
         app:showAsAction="never">
