@@ -18,10 +18,10 @@
     </include>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="522dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -128,7 +128,8 @@
                     android:id="@+id/textView8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="②.於作法1中加入所有調味料及所有配料拌勻，即為辣味章魚麵糊，備用。\n" />
+                    android:text="②.於作法1中加入所有調味料及所有配料拌勻，即為辣味章魚麵糊，備用。\n"
+                    android:textSize="18sp" />
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -140,7 +141,8 @@
                     android:id="@+id/textView9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="③.取一平底鍋加熱，倒入適量沙拉油，再加入作法2的辣味章魚麵糊，用小火煎至兩面皆金黃熟透即可。\n" />
+                    android:text="③.取一平底鍋加熱，倒入適量沙拉油，再加入作法2的辣味章魚麵糊，用小火煎至兩面皆金黃熟透即可。\n"
+                    android:textSize="18sp" />
 
 
             </LinearLayout>

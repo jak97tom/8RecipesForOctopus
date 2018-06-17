@@ -18,17 +18,15 @@
     </include>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="525dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/app_bar"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@+id/app_bar">
 
         <android.support.v4.widget.NestedScrollView
             android:layout_width="match_parent"
@@ -48,6 +46,12 @@
                     android:text="食材"
                     android:textAlignment="center"
                     android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/fivewei1" />
 
                 <TextView
                     android:id="@+id/textView5"
@@ -81,12 +85,43 @@
                     android:textAlignment="center"
                     android:textSize="30sp" />
 
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/fivewei3" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/fivewei4" />
+
                 <TextView
                     android:id="@+id/textView22"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="①.把薑、辣椒、蒜仁切末，再與所有調味料拌勻即為五味醬\n②.小章魚放入滾水中汆燙約10秒後，即撈起裝盤，食用時佐以五味醬即可。"
+                    android:text="①.把薑、辣椒、蒜仁切末，再與所有調味料拌勻即為五味醬"
                     android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/fivewei2" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="②.小章魚放入滾水中汆燙約10秒後，即撈起裝盤，食用時佐以五味醬即可。\n"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/fivewei5" />
             </LinearLayout>
         </android.support.v4.widget.NestedScrollView>
 
