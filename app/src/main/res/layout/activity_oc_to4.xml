@@ -66,6 +66,18 @@
                     android:layout_height="275dp"
                     app:srcCompat="@drawable/octopie1" />
 
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="299dp"
+                    app:srcCompat="@drawable/octopie2" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="302dp"
+                    app:srcCompat="@drawable/octopie3" />
+
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="match_parent"
@@ -99,12 +111,36 @@
                     android:text="作法"
                     android:textSize="30sp" />
 
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="276dp"
+                    app:srcCompat="@drawable/octopie3" />
+
                 <TextView
                     android:id="@+id/textView7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="①.中筋麵粉、玉米粉過篩，再加入水一起攪拌均勻成糊狀，靜置約40分鐘，備用。\n②.於作法1中加入所有調味料及所有配料拌勻，即為辣味章魚麵糊，備用。\n③.取一平底鍋加熱，倒入適量沙拉油，再加入作法2的辣味章魚麵糊，用小火煎至兩面皆金黃熟透即可。\n"
+                    android:text="①.中筋麵粉、玉米粉過篩，再加入水一起攪拌均勻成糊狀，靜置約40分鐘，備用。"
                     android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="②.於作法1中加入所有調味料及所有配料拌勻，即為辣味章魚麵糊，備用。\n" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="277dp"
+                    app:srcCompat="@drawable/octopie5" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="③.取一平底鍋加熱，倒入適量沙拉油，再加入作法2的辣味章魚麵糊，用小火煎至兩面皆金黃熟透即可。\n" />
 
 
             </LinearLayout>
