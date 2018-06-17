@@ -18,10 +18,10 @@
     </include>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="525dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -110,12 +110,62 @@
                     android:text="作法"
                     android:textSize="30sp" />
 
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/takoyaki2" />
+
                 <TextView
                     android:id="@+id/textView7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="①.烤盤加熱,刷上沙拉油,在將麵糊到入模型中約五分滿\n②.依序放上章魚丁>高麗菜>再倒滿麵糊\n③.中小火慢慢煎,煎至金黃\n④.再將煎好的章魚球刷上醬料>沙拉>海苔粉>柴魚片,即可\n
-    "
+                    android:text="①.烤盤加熱,刷上沙拉油,在將麵糊到入模型中約五分滿\n②.依序放上章魚丁>高麗菜>再倒滿麵糊\n③.中小火慢慢煎,煎至金黃\n④.再將煎好的章魚球刷上醬料>沙拉>海苔粉>柴魚片,即可\n"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/takoyaki4" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/takoyaki3" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="②.依序放上章魚丁>高麗菜>再倒滿麵糊\n③.中小火慢慢煎,煎至金黃\n④.再將煎好的章魚球刷上醬料>沙拉>海苔粉>柴魚片,即可\n"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/takoyaki5" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="③.中小火慢慢煎,煎至金黃\n④.再將煎好的章魚球刷上醬料>沙拉>海苔粉>柴魚片,即可\n"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/takoyaki6" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="④.再將煎好的章魚球刷上醬料>沙拉>海苔粉>柴魚片,即可\n"
                     android:textSize="18sp" />
 
 

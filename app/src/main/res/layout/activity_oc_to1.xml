@@ -19,10 +19,10 @@
 
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="525dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,6 +60,12 @@
                     android:text="食材"
                     android:textSize="30sp" />
 
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/friedocto1" />
 
                 <TextView
                     android:id="@+id/textView3"
@@ -102,6 +108,12 @@
                     android:text="①.黃甜椒+辣椒：將黃椒燙水後泡冰水、去皮，放入調理機，與1根朝天椒、1小匙鹽一起打勻。\n②.辣椒醬A：將蛋黃、200cc沙拉油、白醋1小匙用打蛋器打成美乃滋後，加入黃甜椒+朝天椒、巴西里末混合拌勻成辣椒醬A。\n③.辣椒醬B：將紅辣椒、朝天椒1根、香菜、蔥、1茶匙鹽、水打成辣椒醬B。\n④.麵漿：將麵粉加入冰水、蛋黃做成麵漿。\n⑤.起150-160度油鍋，章魚切0.5公分薄片後，畫花刀，沾麵漿下鍋炸熟。\n⑥.組裝：炸章魚排盤後，擺上海苔絲，食用時沾取兩種醬汁搭配食用即完成。\n
     "
                     android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/friedocto4" />
 
 
             </LinearLayout>

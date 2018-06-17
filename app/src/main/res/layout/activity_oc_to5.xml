@@ -18,17 +18,15 @@
     </include>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="525dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/app_bar"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@+id/app_bar">
 
         <android.support.v4.widget.NestedScrollView
             android:layout_width="match_parent"
@@ -49,11 +47,17 @@
                     android:textAlignment="center"
                     android:textSize="30sp" />
 
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="277dp"
+                    app:srcCompat="@drawable/spicyoctopus1" />
+
                 <TextView
                     android:id="@+id/textView5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="小章魚 200公克\n薑 8公克\n蒜仁 10公克\n辣椒 1根"
+                    android:text="小章魚三隻\n蔥一根\n"
                     android:textSize="18sp" />
 
                 <TextView
@@ -69,8 +73,7 @@
                     android:id="@+id/textView16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="蕃茄醬 2大匙\n烏醋 1大匙\n醬油膏 1茶匙\n細糖 1茶匙\n香油 1茶匙
-"
+                    android:text="醬油一匙\n辣椒粉三匙半\n果糖半匙\n蒜泥兩匙半\n糖一匙\n牛肉調味粉一小匙（可選）\n"
                     android:textSize="18sp" />
 
                 <TextView
@@ -85,8 +88,15 @@
                     android:id="@+id/textView22"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="①.把薑、辣椒、蒜仁切末，再與所有調味料拌勻即為五味醬\n②.小章魚放入滾水中汆燙約10秒後，即撈起裝盤，食用時佐以五味醬即可。"
+                    android:text="①.用麵粉將小章魚搓洗乾淨。\n②.用剪刀將頭部剪開去除內臟後，再用粗鹽搓洗一遍。\n③.將蔥切成長段。\n④.起一鍋滾水放入蔥段稍為川燙後撈起。川燙後的蔥段備用。\n⑤.接著在同一鍋滾水中放入章魚稍微川燙後撈起。
+                    \n⑥.將川燙過的章魚切成易入口的大小。\n⑦.平底鍋中放入一大匙油和蒜泥拌炒。\n⑧.接著加入半杯水。\n⑨.放入所有的調味料煮滾。\n⑩.中火放入章魚。\n⑪.快速拌炒均勻。\n⑫.放入蔥段拌炒。\n⑬拌勻後灑上芝麻裝飾就完成囉。"
                     android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="277dp"
+                    app:srcCompat="@drawable/spicyoctopus2" />
             </LinearLayout>
         </android.support.v4.widget.NestedScrollView>
 
