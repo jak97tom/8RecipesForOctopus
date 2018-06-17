@@ -60,6 +60,12 @@
                     android:textSize="30sp" />
 
 
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="275dp"
+                    app:srcCompat="@drawable/octopie1" />
+
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="match_parent"
