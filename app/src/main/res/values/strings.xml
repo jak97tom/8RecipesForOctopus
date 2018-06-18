@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">8種章魚食譜</string>
-    <string name="settings_name">給我們5顆星</string>
-    <string name="help_name">小知識</string>
+    <string name="settings_name">小常識</string>
+    <string name="help_name">給我們5顆星</string>
     <string name="update_name">新增</string>
     <string name="share_name">分享</string>
     <string name="title_activity_settings">Settings</string>

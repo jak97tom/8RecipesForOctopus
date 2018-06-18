@@ -1,6 +1,7 @@
 package com.ehappy.a8recipesofoctopus;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -8,11 +9,15 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ShareActionProvider;
 import android.widget.Toast;
+
+import java.time.Instant;
 
 
 public class MainActivity extends AppCompatActivity {
-//    public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,27 +31,35 @@ public class MainActivity extends AppCompatActivity {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
         return super.onCreateOptionsMenu(menu);
+
     }
+
+//    private void setShareIntent(Intent shareIntent) {
+//        if (mShareActionProvider != null) {
+//            mShareActionProvider.setShareIntent(shareIntent);
+//        }
+//    }
+
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId())
         {
-            case R.id.help:
-                Toast.makeText(getApplicationContext(),"Help",Toast.LENGTH_SHORT).show();
-                break;
             case R.id.action_settings:
-                Toast.makeText(getApplicationContext(),"setting",Toast.LENGTH_SHORT).show();
+                final Intent browserIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://play.google.com/store/apps/details?id=com.ehappy.a8recipesofoctopus"));
+                startActivity(browserIntent);
                 break;
-//            case R.id.update:
-//                Toast.makeText(getApplicationContext(),"你不知道jian yang堅持只有8種章魚食譜做法嗎？",Toast.LENGTH_SHORT).show();
-//                break;
-//            default:
-//            case R.id.share
-
+            case R.id.help:
+                Intent intent = new Intent(this, OcHint.class);
+                startActivity(intent);
+                break;
+            case R.id.share:
+                final Intent fbIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.facebook.com/sharer/sharer.php?u=https%3A//play.google.com/store/apps/details?id=com.ehappy.a8recipesofoctopus"));
+                startActivity(fbIntent);
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
-
 
     /** Called when the user taps the Send button */
     public void openRecipe1(View view) {
