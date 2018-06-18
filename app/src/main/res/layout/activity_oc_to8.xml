@@ -48,6 +48,12 @@
                     android:textAlignment="center"
                     android:textSize="30sp" />
 
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="285dp"
+                    app:srcCompat="@drawable/three1" />
+
                 <TextView
                     android:id="@+id/textView28"
                     android:layout_width="match_parent"
@@ -84,8 +90,40 @@
                     android:id="@+id/textView32"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="①.章魚切好燙十五秒撈起備用\n②.麻油乾煸薑片\n③.加入蒜頭辣椒片爆炒\n④.加入調味料拌炒\n⑤.加入章魚悶一分半，拌炒後在悶一分半(合計勿超過五分鐘會太老)\n⑥.加入九層塔炒勻即可"
+                    android:text="①.章魚切好燙十五秒撈起備用"
                     android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="293dp"
+                    app:srcCompat="@drawable/three2" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:text="②.麻油乾煸薑片\n③.加入蒜頭辣椒片爆炒\n④.加入調味料拌炒\n"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="277dp"
+                    app:srcCompat="@drawable/three3" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="⑤.加入章魚悶一分半，拌炒後在悶一分半(合計勿超過五分鐘會太老)\n⑥.加入九層塔炒勻即可"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="286dp"
+                    app:srcCompat="@drawable/three4" />
             </LinearLayout>
         </android.support.v4.widget.NestedScrollView>
 

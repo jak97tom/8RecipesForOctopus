@@ -47,6 +47,12 @@
                     android:textAlignment="center"
                     android:textSize="30sp" />
 
+                <ImageView
+                    android:id="@+id/imageView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/idl1" />
+
                 <TextView
                     android:id="@+id/textView24"
                     android:layout_width="match_parent"
@@ -63,12 +69,24 @@
                     android:textAlignment="center"
                     android:textSize="30sp" />
 
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="279dp"
+                    app:srcCompat="@drawable/idl2" />
+
                 <TextView
                     android:id="@+id/textView26"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="①.蕃茄洗淨，將外皮劃十字，以熱水燙過後去除皮及籽，小黃瓜洗淨，連同洋蔥一起切成小丁狀備用。\n②.章魚腳洗淨，以沸水汆燙至熟，取出切斜片狀，隨即浸泡在冰水中冰鎮。\n③.將作法2的章魚腳撈起瀝乾，連同蕃茄丁、小黃瓜丁、洋蔥丁與所有調味料混合拌勻即可。"
                     android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="291dp"
+                    app:srcCompat="@drawable/idl3" />
             </LinearLayout>
         </android.support.v4.widget.NestedScrollView>
     </LinearLayout>

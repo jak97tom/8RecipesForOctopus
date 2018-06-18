@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                         "章魚在口部周圍僅有8隻腕，缺乏觸腕，故又被稱作八爪魚"};
                 int i = (int) (Math.random() * names.length);
                 String element = names[i];
-                Toast.makeText(getApplicationContext(),element,Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),element,Toast.LENGTH_LONG).show();
                 break;
             case R.id.share:
                 final Intent fbIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.facebook.com/sharer/sharer.php?u=https%3A//play.google.com/store/apps/details?id=com.ehappy.a8recipesofoctopus"));
